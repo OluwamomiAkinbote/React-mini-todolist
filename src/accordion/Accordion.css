@@ -1,0 +1,42 @@
+h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #222;
+  text-decoration: underline;
+}
+
+.accordion-container {
+  width: 550px;
+  margin: auto;
+}
+.accordion-section {
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ddd;
+  background-color: #122;
+}
+
+.accordion-header-open {
+  background-color: #222;
+}
+.accordion-content {
+  padding: 10px;
+  background-color: #666;
+  color: #ddd;
+}
+.icon {
+  font-size: 1.2rem;
+  margin-left: 8px;
+  font-weight: 900;
+}
